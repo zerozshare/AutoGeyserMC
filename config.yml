@@ -1,0 +1,38 @@
+geyser:
+  memory:
+    min: 512
+    max: 1024
+  jvm-args:
+    - "-XX:+UseG1GC"
+    - "-XX:+DisableExplicitGC"
+    - "-XX:+UseStringDeduplication"
+    - "-Dfile.encoding=UTF-8"
+    - "-Dsun.stdout.encoding=UTF-8"
+    - "-Dsun.stderr.encoding=UTF-8"
+  auto-start: true
+  auto-update: true
+  auto-restart: true
+
+
+updates:
+  check-interval: 5
+  auto-restart-geyser: true
+  restart-countdown: 60
+  notify-ops: true
+
+downloads:
+  auto-download:
+    floodgate: true
+    viaversion: true
+    viabackwards: true
+  update-check-interval: 24
+
+
+logging:
+  show-geyser-output: true
+  log-level: "INFO"
+  show-dynamic-load-details: true
+
+floodgate:
+  auto-setup: true
+  custom-key-path: ""
