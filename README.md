@@ -5,3 +5,6 @@ Version 1.20+
 SpigotMC/PaperMC
 
 Combined with FastServer (https://fss.zpw.jp/), you can easily create the fastest Minecraft cross-play server.
+
+Use in accordance with the license⇣
+https://github.com/zerozshare/AutoGeyserMC/blob/main/LICENSE
